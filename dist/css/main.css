@@ -309,6 +309,10 @@ main {
   .reason-info {
     grid-template-areas: "bio" "bio" "bio" "reason1" "reason2" "reason3";
     grid-template-columns: 1fr; }
+  .reason {
+    background: #515151;
+    padding: 0.5rem;
+    border-bottom: #eece1a 5px solid; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
@@ -322,5 +326,9 @@ main {
       font-size: 5rem; }
     main .contact-info {
       font-size: 1.5rem; }
+  .reason {
+    background: #515151;
+    padding: 0.5rem;
+    border-bottom: #eece1a 5px solid; }
   .projects {
     grid-template-columns: 1fr; } }

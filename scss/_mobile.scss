@@ -88,6 +88,11 @@
 
     grid-template-columns: 1fr;
   }
+  .reason {
+    background: lighten($primary-color, 5);
+    padding: 0.5rem;
+    border-bottom: $secondary-color 5px solid;
+  }
 
   .projects {
     grid-template-columns: repeat(2, 1fr);
@@ -107,6 +112,11 @@
     .contact-info {
       font-size: 1.5rem;
     }
+  }
+  .reason {
+    background: lighten($primary-color, 5);
+    padding: 0.5rem;
+    border-bottom: $secondary-color 5px solid;
   }
 
   .projects {
