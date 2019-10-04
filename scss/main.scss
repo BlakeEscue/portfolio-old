@@ -78,6 +78,36 @@ main {
   }
 }
 
+// Reasons Page
+.reason-info {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas:
+    "bio bio bio"
+    "reason1 reason2 reason3";
+  grid-template-columns: repeat(3, 1fr);
+
+  .bio {
+    grid-area: bio;
+    font-size: 1.5rem;
+  }
+
+  .reason-1 {
+    grid-area: reason1;
+  }
+  .reason-2 {
+    grid-area: reason2;
+  }
+  .reason-3 {
+    grid-area: reason3;
+  }
+  .reason {
+    background: lighten($primary-color, 5);
+    padding: 0.5rem;
+    border-bottom: $secondary-color 5px solid;
+  }
+}
+
 // About page
 
 .about-info {
@@ -119,6 +149,10 @@ main {
   display: grid;
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr);
+
+  .project-name {
+    text-align: center;
+  }
 
   img {
     width: 100%;
