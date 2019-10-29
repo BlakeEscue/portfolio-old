@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 .menu-btn {
   position: absolute;
@@ -131,7 +131,7 @@ h3 {
   h2.lg-heading,
   h3.lg-heading {
     font-size: 6rem;
-    font-family: "Playfair Display", serif; }
+    font-family: "Bowlby One SC", cursive; }
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading {
@@ -140,6 +140,7 @@ h3 {
     background: rgba(73, 73, 73, 0.5); }
 
 a {
+  font-family: "Bowlby One SC", cursive;
   color: #fff;
   text-decoration: none; }
 
@@ -149,9 +150,14 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #eece1a; }
+  color: #eece1a;
+  font-family: "Bowlby One SC", cursive; }
 
 main {
+  background: url(../img/background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
   padding: 4rem;
   min-height: calc(100vh - 60px); }
   main .icons {
@@ -169,7 +175,8 @@ main {
 .reason-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bio bio bio" "reason1 reason2 reason3";
+  grid-template-areas: "bio bio bio"
+ "reason1 reason2 reason3";
   grid-template-columns: repeat(3, 1fr); }
   .reason-info .bio {
     grid-area: bio;
@@ -181,14 +188,15 @@ main {
   .reason-info .reason-3 {
     grid-area: reason3; }
   .reason-info .reason {
-    background: #515151;
+    background: rgba(73, 73, 73, 0.5);
     padding: 0.5rem;
     border-bottom: #eece1a 5px solid; }
 
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bio bio bio" "job1 job2 job3";
+  grid-template-areas: "bio bio bio"
+ "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
@@ -197,7 +205,10 @@ main {
     border: #eece1a 3px solid; }
   .about-info .bio {
     grid-area: bio;
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 0.2rem 1rem;
+    background: rgba(73, 73, 73, 0.5); }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
@@ -268,14 +279,24 @@ main {
 
 @media screen and (min-width: 1171px) {
   .reason-info {
-    grid-template-areas: "bio" "bio" "bio" "reason1" "reason2" "reason3";
+    grid-template-areas: "bio"
+ "bio"
+ "bio"
+ "reason1"
+ "reason2"
+ "reason3";
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(4, 1fr); } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .reason-info {
-    grid-template-areas: "bio" "bio" "bio" "reason1" "reason2" "reason3";
+    grid-template-areas: "bio"
+ "bio"
+ "bio"
+ "reason1"
+ "reason2"
+ "reason3";
     grid-template-columns: 1fr; } }
 
 @media screen and (max-width: 768px) {
@@ -304,10 +325,20 @@ main {
       width: 150px;
       height: 150px; }
   .about-info {
-    grid-template-areas: "bio" "bio" "bio" "job1" "job2" "job3";
+    grid-template-areas: "bio"
+ "bio"
+ "bio"
+ "job1"
+ "job2"
+ "job3";
     grid-template-columns: 1fr; }
   .reason-info {
-    grid-template-areas: "bio" "bio" "bio" "reason1" "reason2" "reason3";
+    grid-template-areas: "bio"
+ "bio"
+ "bio"
+ "reason1"
+ "reason2"
+ "reason3";
     grid-template-columns: 1fr; }
   .reason {
     background: #515151;
@@ -332,3 +363,4 @@ main {
     border-bottom: #eece1a 5px solid; }
   .projects {
     grid-template-columns: 1fr; } }
+
