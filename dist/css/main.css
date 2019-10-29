@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 .menu-btn {
   position: absolute;
@@ -131,7 +131,7 @@ h3 {
   h2.lg-heading,
   h3.lg-heading {
     font-size: 6rem;
-    font-family: "Playfair Display", serif; }
+    font-family: "Bowlby One SC", cursive; }
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading {
@@ -140,6 +140,7 @@ h3 {
     background: rgba(73, 73, 73, 0.5); }
 
 a {
+  font-family: "Bowlby One SC", cursive;
   color: #fff;
   text-decoration: none; }
 
@@ -149,9 +150,14 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #eece1a; }
+  color: #eece1a;
+  font-family: "Bowlby One SC", cursive; }
 
 main {
+  background: url(../img/background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
   padding: 4rem;
   min-height: calc(100vh - 60px); }
   main .icons {
@@ -181,7 +187,7 @@ main {
   .reason-info .reason-3 {
     grid-area: reason3; }
   .reason-info .reason {
-    background: #515151;
+    background: rgba(73, 73, 73, 0.5);
     padding: 0.5rem;
     border-bottom: #eece1a 5px solid; }
 
@@ -197,7 +203,10 @@ main {
     border: #eece1a 3px solid; }
   .about-info .bio {
     grid-area: bio;
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 0.2rem 1rem;
+    background: rgba(73, 73, 73, 0.5); }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {

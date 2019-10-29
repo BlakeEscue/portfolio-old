@@ -1,6 +1,6 @@
 @import "config";
 @import "menu";
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 
 * {
@@ -26,7 +26,7 @@ h3 {
 
   &.lg-heading {
     font-size: 6rem;
-    font-family: "Playfair Display", serif;
+    font-family: "Bowlby One SC", cursive;
   }
 
   &.sm-heading {
@@ -37,6 +37,7 @@ h3 {
 }
 
 a {
+  font-family: "Bowlby One SC", cursive;
   color: #fff;
   text-decoration: none;
 }
@@ -49,9 +50,14 @@ header {
 
 .text-secondary {
   color: $secondary-color;
+  font-family: "Bowlby One SC", cursive;
 }
 
 main {
+  background: $home-image;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
   padding: 4rem;
   //height: 100%;
   //minus footer height to create sticky
@@ -102,7 +108,7 @@ main {
     grid-area: reason3;
   }
   .reason {
-    background: lighten($primary-color, 5);
+    background: rgba(lighten($primary-color, 2), 0.5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
   }
@@ -126,6 +132,9 @@ main {
   .bio {
     grid-area: bio;
     font-size: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 0.2rem 1rem;
+    background: rgba(lighten($primary-color, 2), 0.5);
   }
 
   .job-1 {
