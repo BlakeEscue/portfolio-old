@@ -175,8 +175,7 @@ main {
 .reason-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bio bio bio"
- "reason1 reason2 reason3";
+  grid-template-areas: "bio bio bio" "reason1 reason2 reason3";
   grid-template-columns: repeat(3, 1fr); }
   .reason-info .bio {
     grid-area: bio;
@@ -195,8 +194,7 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bio bio bio"
- "job1 job2 job3";
+  grid-template-areas: "bio bio bio" "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
@@ -279,24 +277,14 @@ main {
 
 @media screen and (min-width: 1171px) {
   .reason-info {
-    grid-template-areas: "bio"
- "bio"
- "bio"
- "reason1"
- "reason2"
- "reason3";
+    grid-template-areas: "bio" "bio" "bio" "reason1" "reason2" "reason3";
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(4, 1fr); } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .reason-info {
-    grid-template-areas: "bio"
- "bio"
- "bio"
- "reason1"
- "reason2"
- "reason3";
+    grid-template-areas: "bio" "bio" "bio" "reason1" "reason2" "reason3";
     grid-template-columns: 1fr; } }
 
 @media screen and (max-width: 768px) {
@@ -325,20 +313,10 @@ main {
       width: 150px;
       height: 150px; }
   .about-info {
-    grid-template-areas: "bio"
- "bio"
- "bio"
- "job1"
- "job2"
- "job3";
+    grid-template-areas: "bio" "bio" "bio" "job1" "job2" "job3";
     grid-template-columns: 1fr; }
   .reason-info {
-    grid-template-areas: "bio"
- "bio"
- "bio"
- "reason1"
- "reason2"
- "reason3";
+    grid-template-areas: "bio" "bio" "bio" "reason1" "reason2" "reason3";
     grid-template-columns: 1fr; }
   .reason {
     background: #515151;
@@ -363,4 +341,3 @@ main {
     border-bottom: #eece1a 5px solid; }
   .projects {
     grid-template-columns: 1fr; } }
-
