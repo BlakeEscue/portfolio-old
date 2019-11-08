@@ -125,6 +125,7 @@ body {
 h1,
 h2,
 h3 {
+  text-align: center;
   margin: 0;
   font-weight: 400; }
   h1.lg-heading,
@@ -161,6 +162,7 @@ main {
   padding: 4rem;
   min-height: calc(100vh - 60px); }
   main .icons {
+    text-align: center;
     margin-top: 1rem; }
     main .icons a {
       padding: 0.4rem; }
@@ -239,6 +241,7 @@ main {
   align-items: center;
   margin-top: 1rem; }
   .boxes div {
+    cursor: pointer;
     font-size: 2rem;
     border: 3px #fff solid;
     padding: 1.5rem 2.5rem;
@@ -332,9 +335,13 @@ main {
       margin-top: 10vh; }
     main .lg-heading {
       margin-top: 1rem;
-      font-size: 5rem; }
+      font-size: 3rem; }
     main .contact-info {
       font-size: 1.5rem; }
+  .menu-branding {
+    padding: 100px; }
+  .menu .nav-link {
+    font-size: 25px; }
   .reason {
     background: #515151;
     padding: 0.5rem;
