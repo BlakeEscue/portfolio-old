@@ -21,6 +21,7 @@ body {
 h1,
 h2,
 h3 {
+  text-align: center;
   margin: 0;
   font-weight: 400;
 
@@ -64,6 +65,7 @@ main {
   min-height: calc(100vh - 60px);
 
   .icons {
+    text-align: center;
     margin-top: 1rem;
 
     a {
@@ -184,6 +186,7 @@ main {
   margin-top: 1rem;
 
   div {
+    cursor: pointer;
     font-size: 2rem;
     border: 3px #fff solid;
     padding: 1.5rem 2.5rem;

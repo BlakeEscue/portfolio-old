@@ -107,10 +107,18 @@
     }
     .lg-heading {
       margin-top: 1rem;
-      font-size: 5rem;
+      font-size: 3rem;
     }
     .contact-info {
       font-size: 1.5rem;
+    }
+  }
+  .menu {
+    &-branding {
+      padding: 100px;
+    }
+    .nav-link {
+      font-size: 25px;
     }
   }
   .reason {
